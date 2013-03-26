@@ -1,8 +1,8 @@
-# Portuguese / Portugais
+# Portuguese / Português
 
-global.title: "Aprenda CSS"
+global.title: "Aprende CSS"
 global.short_title: "CSS"
-global.home: "Home"
+global.home: "Início"
 global.toc: "Índice"
 global.next: "Próximo"
 global.previous: "Anterior"
@@ -10,19 +10,19 @@ global.feedback: "Problemas / Feedback"
 
 util.extra_credit: "crédito extra"
 util.ipsum: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit."
-util.nav.1: "Home"
+util.nav.1: "Início"
 util.nav.2: "Taco Menu"
 util.nav.3: "Lista de Rascunho"
 util.nav.4: "Horas"
 util.nav.5: "Direções"
 util.nav.6: "Contato"
 
-index.1: "Este site vai ensinar fundamentos em CSS que serão usados em qualquer site."
-index.2: "Suponho que você já saiba fazer algumas coisas coloridas. Que você saiba o que são seletores, propriedades e valores. E provavelmente saiba uma ou duas coisas sobre layouts, embora isso possa parecer confuso pra você. Vamos ver se conseguimos te deixar mais calmo em seu próximo projeto."
+index.1: "Este site ensina fundamentos em CSS que são usados em qualquer site."
+index.2: "Eu suponho que já sabes o que são seletores, propriedades e valores. E provavelmente tens alguma noçöes de layouts, mesmo que isso te provoque alguma raiva . Vamos ver se conseguimos deixar-te mais calmo no teu próximo projeto."
 index.get_started: "Vamos Começar"
 
-no_layout.title: "no layout"
-no_layout.1: "Having no layout whatsover is almost ok if all you want is one big column of content. However, if a user makes the browser window really wide, it gets kind of annoying to read: after each line your eyes have a long distance to travel right-to-left to the next line. Try resizing your browser to see what I mean!"
+no_layout.title: "Sem layout"
+no_layout.1: "Não ter layout é ok se o objetivo é ter apenas uma coluna com conteudo. No entao, se um utilizador tornar a janela muito larga, pode tornar-se irritante: after each line your eyes have a long distance to travel right-to-left to the next line. Try resizing your browser to see what I mean!"
 no_layout.2: "Before we fix this problem, let's make sure we're clear on the very important <code>display</code> property."
 
 display.title: "the \"display\" property"
@@ -56,16 +56,16 @@ box_model.outro: "For generations, the solution to this problem has been math. C
 
 box_sizing.title: "box-sizing"
 box_sizing.1: "Over the generations, people realized that math is not fun, so a new CSS property called <code>box-sizing</code> was created. When you set <code>box-sizing: border-box;</code> on an element, the padding and border of that element no longer increase its width. Here is the same example as the previous page, but with <code>box-sizing: border-box;</code> on both elements:"
-box_sizing.simple: "We're the same size now!"
-box_sizing.fancy: "Hooray!"
-box_sizing.2: "Since this is so much better, some authors want all elements on all their pages to always work this way. Such authors put the following CSS on their pages:"
-box_sizing.3: "This ensures that all elements are always sized in this more intuitive way."
-box_sizing.4: "Since <code>box-sizing</code> is pretty new, you should use the <code>-webkit-</code> and <code>-moz-</code> prefixes for now, as I have in these examples. This technique enables experimental features in specific browsers. Also, keep in mind that this one is <a href=\"http://caniuse.com/#search=box-sizing\">IE8+</a>."
+box_sizing.simple: "Somos do mesmo tamanho agora!"
+box_sizing.fancy: "Hurra!"
+box_sizing.2: "Visto que isto é muito melhor, alguns autores querem os elementos nas suas páginas sempre assim. Eles pôem o seguinte CSS nas suas páginas:"
+box_sizing.3: "Isto garante que todos os elemento säo sempre medidos de maneira igual"
+box_sizing.4: "Desde que <code>box-sizing</code> é bastante recente, deves usar os prefixos<code>-webkit-</code> e <code>-moz-</code> por agora, como estäo nestes exemplos. Esta técnica permite attributos experimentais em browsers específicos. E näo te esqueças que isto é <a href=\"http://caniuse.com/#search=box-sizing\">IE8+</a>."
 
 position.title: "position"
-position.intro: "In order to make more complex layouts, we need to discuss the <code>position</code> property. It has a bunch of possible values, and their names make no sense and are impossible to remember. Let's go through them one by one, but maybe you should bookmark this page too."
+position.intro: "De forma a criar composiçöes mais complexas, temos que falar do atributo <code>position</code>. Tem muitos valores possíveis, cujos nomes näo fazem sentido nenhum e säo impossíveis de lembrar. Vamos falar deles um a um, mas o melhor é marcares esta página também."
 position.static.title: "static"
-position.static.1: "<code>static</code> is the default value. An element with <code>position: static;</code> is not positioned in any special way. A static element is said to be <em>not positioned</em> and an element with its position set to anything else is said to be <em>positioned</em>."
+position.static.1: "<code>static</code> é o valor predefinido. Um element com <code>position: static;</code> nao é posicionado de mameira especial. Um elemento estático é dito <em>näo posicionado</em> e um elemento com a sua posiçâo definida e´dito <em>posicionado</em>."
 position.relative.title: "relative"
 position.relative.1: "<code>relative</code> behaves the same as <code>static</code> unless you add some extra properties."
 position.relative.2: "Setting the <code>top</code>, <code>right</code>, <code>bottom</code>, and <code>left</code> properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element."
@@ -94,9 +94,9 @@ float.1: "Another CSS property used for layout is <code>float</code>. Float is i
 
 clear.title: "clear"
 clear.floating: "I feel like I'm floating!"
-clear.1: "The <code>clear</code> property is important for controlling the behavior of floats. Compare these two examples:"
-clear.2: "In this case, the <code>section</code> element is actually after the <code>div</code>. However, since the <code>div</code> is floated to the left, this is what happens: the text in the <code>section</code> is floated around the <code>div</code> and the <code>section</code> surrounds the whole thing. What if we wanted the <code>section</code> to actually appear after the floated element?"
-clear.3: "Using <code>clear</code> we have now moved this section down below the floated <code>div</code>. You use the value <code>left</code> to clear elements floated to the left. You can also clear <code>right</code> and <code>both</code>."
+clear.1: "The <code>clear</code> property is important for controlling the behavior of floats. Compare estes dois exemplos:"
+clear.2: "Neste caso, o elemento <code>section</code> está depois do <code>div</code>. No entanto, desde que o <code>div</code> é flutuante para a esquerda, isto é o que acontece: o texto na <code>section</code> flutua à volta do <code>div</code> e a <code>section</code> envolve tudo. Mas e se quiséssemos que o elemento <code>section</code> aparecesse depois do elemento flutuante?"
+clear.3: "Com <code>clear</code> movemos esta seçäo para debaixo do <code>div</code> flutuante. Usa <code>left</code> para alinhar elementos flutuantes para a esquerda. Podes também usar clear <code>right</code> e <code>both</code>."
 
 clearfix.title: "a técnica clearfix"
 clearfix.1: "Here is a weird, bad thing that can sometimes happen when using floats:"
